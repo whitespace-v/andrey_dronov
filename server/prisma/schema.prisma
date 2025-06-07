@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             Int              @id @default(autoincrement())
+  login          String           @unique
+  password       String
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?
+}
+
+model Group {
+  id             Int              @id @default(autoincrement())
+  title          String
+  description    String
+  src            String
+  series         Series[]
+  items          Item[]
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?  
+}
+
+model Series {
+  id             Int              @id @default(autoincrement())
+  group_id       Int
+  src            String
+  group          Group            @relation(fields: [group_id], references: [id])
+  items          Item[]
+  title          String
+  description    String
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?  
+}
+
+model Item {
+  id             Int              @id @default(autoincrement())
+  title          String
+  count          Int
+  price          Int
+  description    String
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?
+  series_id      Int
+  series         Series           @relation(fields: [series_id], references: [id])
+  group_id       Int
+  groups         Group            @relation(fields: [group_id], references: [id])
+  images         ItemImage[]
+  params_table   ItemParamsTable[]
+
+}
+
+model ItemImage { 
+  id             Int              @id @default(autoincrement())
+  item_id        Int
+  item           Item             @relation(fields: [item_id], references: [id])
+  src            String
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?
+}
+
+model ItemParamsTable{
+  id             Int              @id @default(autoincrement())
+  item_id        Int
+  item           Item             @relation(fields: [item_id], references: [id])
+  title          String
+  units          ItemParamsUnit[]
+  created_at     DateTime         @default(now())
+  updated_at     DateTime?
+}
+
+model ItemParamsUnit {
+  id                     Int               @id @default(autoincrement())
+  item_params_table_id   Int              
+  params_table           ItemParamsTable   @relation(fields: [item_params_table_id], references: [id])
+  name                   String
+  value                  String
+  created_at             DateTime          @default(now())
+  updated_at             DateTime?
+}

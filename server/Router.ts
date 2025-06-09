@@ -1,7 +1,6 @@
 import Elysia, { t } from "elysia";
 import { UserController } from "./controllers/UserController";
 import { ItemsController } from "./controllers/ItemsController";
-import type { BunFile } from "bun";
 
 export class Router {
   static users = new Elysia()
@@ -29,19 +28,23 @@ export class Router {
       }
     );
   static items = new Elysia()
+    // .get("/fetch", ItemsController.fetchItems())
     .group("/groups", (app) =>
-      app.post(
-        "/create",
-        ({ body: { title, image, description } }) =>
-          ItemsController.groupCreate({ title, description, image }),
-        {
-          body: t.Object({
-            title: t.String(),
-            description: t.String(),
-            image: t.File(),
-          }),
-        }
-      )
+      app
+        .post(
+          "/create",
+          ({ body: { title, image, description } }) =>
+            ItemsController.groupCreate({ title, description, image }),
+          {
+            body: t.Object({
+              title: t.String(),
+              description: t.String(),
+              image: t.File(),
+            }),
+          }
+        )
+        .get("/fetch", () => ItemsController.groupsGet())
+        .get("/fullfetch", () => ItemsController.groupsFullFetch())
     )
     .group("/series", (app) =>
       app.post("/create", () => ItemsController.seriesCreate())

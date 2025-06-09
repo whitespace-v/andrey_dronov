@@ -25,4 +25,28 @@ export class ItemsController {
     }
   }
   static async seriesCreate() {}
+  static async groupsGet() {
+    try {
+      return await Pool.conn.group.findMany({});
+    } catch (error) {
+      console.error("Error", error);
+      return Responder.forbidden("Что-то не так");
+    }
+  }
+  static async groupsFullFetch() {
+    try {
+      return await Pool.conn.group.findMany({
+        include: {
+          series: {
+            include: {
+              items: true,
+            },
+          },
+        },
+      });
+    } catch (error) {
+      console.error("Error", error);
+      return Responder.forbidden("Что-то не так");
+    }
+  }
 }

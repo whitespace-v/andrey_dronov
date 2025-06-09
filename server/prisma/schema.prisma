@@ -52,7 +52,6 @@ model Item {
   groups         Group            @relation(fields: [group_id], references: [id])
   images         ItemImage[]
   params_table   ItemParamsTable[]
-
 }
 
 model ItemImage { 

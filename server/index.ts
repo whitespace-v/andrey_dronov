@@ -24,6 +24,8 @@ class API {
   private useRoutes() {
     this.app.group("/items", (app) => app.use(Router.items));
     this.app.group("/users", (app) => app.use(Router.users));
+    this.app.group("/groups", (app) => app.use(Router.groups));
+    this.app.group("/series", (app) => app.use(Router.series));
   }
   async init() {
     this.app.listen(process.env.PORT || 5000);

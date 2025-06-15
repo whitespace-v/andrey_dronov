@@ -87,19 +87,19 @@ CREATE TABLE "ItemParamsUnit" (
 CREATE UNIQUE INDEX "User_login_key" ON "User"("login");
 
 -- AddForeignKey
-ALTER TABLE "Series" ADD CONSTRAINT "Series_group_id_fkey" FOREIGN KEY ("group_id") REFERENCES "Group"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Series" ADD CONSTRAINT "Series_group_id_fkey" FOREIGN KEY ("group_id") REFERENCES "Group"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Item" ADD CONSTRAINT "Item_series_id_fkey" FOREIGN KEY ("series_id") REFERENCES "Series"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Item" ADD CONSTRAINT "Item_series_id_fkey" FOREIGN KEY ("series_id") REFERENCES "Series"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Item" ADD CONSTRAINT "Item_group_id_fkey" FOREIGN KEY ("group_id") REFERENCES "Group"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Item" ADD CONSTRAINT "Item_group_id_fkey" FOREIGN KEY ("group_id") REFERENCES "Group"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "ItemImage" ADD CONSTRAINT "ItemImage_item_id_fkey" FOREIGN KEY ("item_id") REFERENCES "Item"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "ItemImage" ADD CONSTRAINT "ItemImage_item_id_fkey" FOREIGN KEY ("item_id") REFERENCES "Item"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "ItemParamsTable" ADD CONSTRAINT "ItemParamsTable_item_id_fkey" FOREIGN KEY ("item_id") REFERENCES "Item"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "ItemParamsTable" ADD CONSTRAINT "ItemParamsTable_item_id_fkey" FOREIGN KEY ("item_id") REFERENCES "Item"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "ItemParamsUnit" ADD CONSTRAINT "ItemParamsUnit_item_params_table_id_fkey" FOREIGN KEY ("item_params_table_id") REFERENCES "ItemParamsTable"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "ItemParamsUnit" ADD CONSTRAINT "ItemParamsUnit_item_params_table_id_fkey" FOREIGN KEY ("item_params_table_id") REFERENCES "ItemParamsTable"("id") ON DELETE CASCADE ON UPDATE CASCADE;

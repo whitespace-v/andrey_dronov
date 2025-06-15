@@ -27,26 +27,92 @@ export class Router {
         }),
       }
     );
-  static items = new Elysia()
-    // .get("/fetch", ItemsController.fetchItems())
-    .group("/groups", (app) =>
-      app
-        .post(
-          "/create",
-          ({ body: { title, image, description } }) =>
-            ItemsController.groupCreate({ title, description, image }),
-          {
-            body: t.Object({
-              title: t.String(),
-              description: t.String(),
-              image: t.File(),
-            }),
-          }
-        )
-        .get("/fetch", () => ItemsController.groupsGet())
-        .get("/fullfetch", () => ItemsController.groupsFullFetch())
+  static groups = new Elysia()
+    .post(
+      "/delete/:id",
+      ({ params: { id } }) => ItemsController.deleteItem({ id }),
+      {
+        params: t.Object({
+          id: t.Number(),
+        }),
+      }
     )
-    .group("/series", (app) =>
-      app.post("/create", () => ItemsController.seriesCreate())
+    .post(
+      "/create",
+      ({ body: { title, image, description } }) =>
+        ItemsController.groupCreate({ title, description, image }),
+      {
+        body: t.Object({
+          title: t.String(),
+          description: t.String(),
+          image: t.File(),
+        }),
+      }
+    )
+    .get("/fetch", () => ItemsController.groupsGet())
+    .get("/fullfetch", () => ItemsController.groupsFullFetch());
+
+  static series = new Elysia()
+    .post(
+      "/create",
+      ({ body: { title, image, description, group_id } }) =>
+        ItemsController.seriesCreate({ title, image, description, group_id }),
+      {
+        body: t.Object({
+          title: t.String(),
+          image: t.File(),
+          group_id: t.String(),
+          description: t.String(),
+        }),
+      }
+    )
+    .post(
+      "/delete/:id",
+      ({ params: { id } }) => ItemsController.deleteItem({ id }),
+      {
+        params: t.Object({
+          id: t.Number(),
+        }),
+      }
+    );
+
+  static items = new Elysia()
+    .post(
+      "/create",
+      ({ body: { title, image, description, series_id, group_id } }) =>
+        ItemsController.itemsCreate({
+          title,
+          image,
+          description,
+          series_id,
+          group_id,
+        }),
+      {
+        body: t.Object({
+          title: t.String(),
+          image: t.Files(),
+          group_id: t.String(),
+          series_id: t.String(),
+          description: t.String(),
+        }),
+      }
+    )
+    .post(
+      "/delete/:id",
+      ({ params: { id } }) => ItemsController.deleteItem({ id }),
+      {
+        params: t.Object({
+          id: t.Number(),
+        }),
+      }
+    )
+    .get(
+      "/fetch/:id",
+      ({ params: { id } }) => ItemsController.getItem({ id }),
+      {
+        params: t.Object({
+          id: t.Number(),
+        }),
+      }
     );
 }

@@ -915,6 +915,10 @@ body {
   margin-left: .25rem;
 }
 
+.ml-1\.5 {
+  margin-left: .375rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -973,14 +977,6 @@ body {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.ml-2 {
-  margin-left: .5rem;
-}
-
-.ml-1\.5 {
-  margin-left: .375rem;
 }
 
 .box-border {
@@ -1506,10 +1502,6 @@ body {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[320px\] {
-  width: 320px;
 }
 
 .min-w-0 {
@@ -6855,10 +6847,6 @@ body {
   display: none;
 }
 
-.data-\[orientation\=vertical\]\:h-4[data-orientation="vertical"] {
-  height: 1rem;
-}
-
 .data-\[justify\=end\]\:flex-grow[data-justify="end"] {
   flex-grow: 1;
 }
@@ -7297,10 +7285,6 @@ body {
 .data-\[active\=true\]\:bg-success-200[data-active="true"] {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--heroui-success-200) / var(--heroui-success-200-opacity, var(--tw-bg-opacity)));
-}
-
-.data-\[active\=true\]\:bg-transparent[data-active="true"] {
-  background-color: #0000;
 }
 
 .data-\[active\=true\]\:bg-warning[data-active="true"] {

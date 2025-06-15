@@ -1587,7 +1587,7 @@ function CreateDrawer({ title }) {
                         strokeWidth: 2
                     }, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                        lineNumber: 23,
+                        lineNumber: 29,
                         columnNumber: 23
                     }, void 0),
                     className: "cursor-pointer",
@@ -1595,12 +1595,12 @@ function CreateDrawer({ title }) {
                     color: "success"
                 }, void 0, false, {
                     fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                    lineNumber: 21,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                lineNumber: 20,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerContent"], {
@@ -1614,12 +1614,12 @@ function CreateDrawer({ title }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                            lineNumber: 31,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                        lineNumber: 30,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$form$2f$dist$2f$chunk$2d$LAX3QLKM$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Form"], {
@@ -1631,7 +1631,7 @@ function CreateDrawer({ title }) {
                                 children: "Название"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 40,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$input$2f$dist$2f$chunk$2d$XHMVOG2O$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__input_default__as__Input$3e$__["Input"], {
@@ -1641,7 +1641,7 @@ function CreateDrawer({ title }) {
                                 name: "title"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 41,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1649,7 +1649,7 @@ function CreateDrawer({ title }) {
                                 children: "Описание"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 47,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$input$2f$dist$2f$chunk$2d$HLVSDU2Q$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__textarea_default__as__Textarea$3e$__["Textarea"], {
@@ -1659,7 +1659,7 @@ function CreateDrawer({ title }) {
                                 name: "description"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 48,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1667,7 +1667,7 @@ function CreateDrawer({ title }) {
                                 children: "Картинка"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 54,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$input$2f$dist$2f$chunk$2d$XHMVOG2O$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__input_default__as__Input$3e$__["Input"], {
@@ -1676,7 +1676,7 @@ function CreateDrawer({ title }) {
                                 type: "file"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 55,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$KCYYJJH4$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
@@ -1686,25 +1686,25 @@ function CreateDrawer({ title }) {
                                 children: "Создать"
                             }, void 0, false, {
                                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                                lineNumber: 56,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                        lineNumber: 35,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-                lineNumber: 29,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(admin)/admin/components/create-drawer.tsx",
-        lineNumber: 19,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -1725,6 +1725,7 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/drawer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/lib/RequestBuilder.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$link$2f$dist$2f$chunk$2d$T45N425O$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__link_default__as__Link$3e$__ = __turbopack_import__("[project]/node_modules/@heroui/link/dist/chunk-T45N425O.mjs [app-client] (ecmascript) <export link_default as Link>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/trash-2.js [app-client] (ecmascript) <export default as Trash2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$KCYYJJH4$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__ = __turbopack_import__("[project]/node_modules/@heroui/button/dist/chunk-KCYYJJH4.mjs [app-client] (ecmascript) <export button_default as Button>");
@@ -1734,9 +1735,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$
 ;
 ;
 ;
-function DeleteDrawer({ title }) {
+;
+function DeleteDrawer({ title, task, id }) {
     const deleteHandler = async ()=>{
-    // eliminate
+        // eliminate
+        await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RequestBuilder"].$post(`/${task}/delete/${id}`, {});
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Drawer"], {
         children: [
@@ -1749,7 +1752,7 @@ function DeleteDrawer({ title }) {
                         strokeWidth: 1.5
                     }, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 23
                     }, void 0),
                     className: "cursor-pointer",
@@ -1757,12 +1760,12 @@ function DeleteDrawer({ title }) {
                     color: "danger"
                 }, void 0, false, {
                     fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                    lineNumber: 28,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                lineNumber: 27,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerContent"], {
@@ -1777,12 +1780,12 @@ function DeleteDrawer({ title }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                            lineNumber: 38,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                        lineNumber: 37,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$KCYYJJH4$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
@@ -1791,27 +1794,28 @@ function DeleteDrawer({ title }) {
                         className: "w-full",
                         color: "danger",
                         variant: "flat",
+                        onPress: async ()=>await deleteHandler(),
                         children: "Удалить"
                     }, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                        lineNumber: 40,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerFooter"], {}, void 0, false, {
                         fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                        lineNumber: 49,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-                lineNumber: 36,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(admin)/admin/components/delete-drawer.tsx",
-        lineNumber: 26,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }
@@ -1838,8 +1842,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/lib/RequestBuilder.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/label.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/input.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$FormRelease$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/lib/FormRelease.ts [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/sonner/dist/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/textarea.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$create$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/(admin)/admin/components/create-drawer.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$delete$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/(admin)/admin/components/delete-drawer.tsx [app-client] (ecmascript)");
@@ -1850,12 +1852,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript) <export default as ChevronRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Folder$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/folder.js [app-client] (ecmascript) <export default as Folder>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__File$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/file.js [app-client] (ecmascript) <export default as File>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/trash-2.js [app-client] (ecmascript) <export default as Trash2>");
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
-;
-;
 ;
 ;
 ;
@@ -1880,19 +1879,8 @@ function AppSidebar({ ...props }) {
         }
     }["AppSidebar.useEffect"], []);
     const getGroups = async ()=>{
-        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RequestBuilder"].$get("/items/groups/fullfetch", {});
+        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RequestBuilder"].$get("/groups/fullfetch", {});
         setGroups(response);
-    };
-    const createGroupHandler = async (e)=>{
-        const data = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$FormRelease$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FormRelease"].extract(e);
-        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$RequestBuilder$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RequestBuilder"].$post("/items/groups/create", data, {
-            "Content-Type": "multipart/form-data"
-        });
-        if (response.status !== 200) {
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].error(response.response.data.message);
-        } else {
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].info("Группа создана");
-        }
     };
     const createHandler = async ()=>{};
     const deleteHandler = async ()=>{};
@@ -1906,7 +1894,7 @@ function AppSidebar({ ...props }) {
                             children: "Товары"
                         }, void 0, false, {
                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                            lineNumber: 79,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SidebarGroupContent"], {
@@ -1925,7 +1913,7 @@ function AppSidebar({ ...props }) {
                                                         strokeWidth: 2
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                        lineNumber: 86,
+                                                        lineNumber: 71,
                                                         columnNumber: 33
                                                     }, void 0),
                                                     className: "cursor-pointer",
@@ -1933,12 +1921,12 @@ function AppSidebar({ ...props }) {
                                                     color: "success"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 69,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 68,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerContent"], {
@@ -1949,12 +1937,12 @@ function AppSidebar({ ...props }) {
                                                             children: "Добавление Группы"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 79,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 78,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$form$2f$dist$2f$chunk$2d$LAX3QLKM$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Form"], {
@@ -1967,7 +1955,7 @@ function AppSidebar({ ...props }) {
                                                                 children: "Название"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 103,
+                                                                lineNumber: 88,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1977,7 +1965,7 @@ function AppSidebar({ ...props }) {
                                                                 name: "title"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 89,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1985,7 +1973,7 @@ function AppSidebar({ ...props }) {
                                                                 children: "Описание"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 110,
+                                                                lineNumber: 95,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1995,7 +1983,7 @@ function AppSidebar({ ...props }) {
                                                                 name: "description"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 96,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -2003,7 +1991,7 @@ function AppSidebar({ ...props }) {
                                                                 children: "Картинка"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 102,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2012,7 +2000,7 @@ function AppSidebar({ ...props }) {
                                                                 type: "file"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 118,
+                                                                lineNumber: 103,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$KCYYJJH4$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
@@ -2022,25 +2010,25 @@ function AppSidebar({ ...props }) {
                                                                 children: "Создать"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 119,
+                                                                lineNumber: 104,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 83,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 77,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 67,
                                         columnNumber: 15
                                     }, this),
                                     groups.map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SidebarMenuItem"], {
@@ -2062,7 +2050,7 @@ function AppSidebar({ ...props }) {
                                                                                     className: "transition-transform"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                    lineNumber: 133,
+                                                                                    lineNumber: 118,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Folder$3e$__["Folder"], {
@@ -2070,55 +2058,57 @@ function AppSidebar({ ...props }) {
                                                                                     strokeWidth: 2
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                    lineNumber: 134,
+                                                                                    lineNumber: 119,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 g.title
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                            lineNumber: 132,
+                                                                            lineNumber: 117,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "bg-default-100 rounded-md",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$create$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    title: g.title
+                                                                                    title: g.title,
+                                                                                    id: g.id,
+                                                                                    task: "groups"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                    lineNumber: 138,
+                                                                                    lineNumber: 123,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$delete$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                                     title: g.title,
-                                                                                    task: "group",
+                                                                                    task: "groups",
                                                                                     id: g.id
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                    lineNumber: 139,
+                                                                                    lineNumber: 128,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                            lineNumber: 137,
+                                                                            lineNumber: 122,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                    lineNumber: 131,
+                                                                    lineNumber: 116,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 115,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 114,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleContent"], {
@@ -2134,44 +2124,73 @@ function AppSidebar({ ...props }) {
                                                                                             className: "flex items-center w-full",
                                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SidebarMenuButton"], {
                                                                                                 className: "flex-1 w-full justify-between ",
-                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                                    className: "flex items-center gap-2",
-                                                                                                    children: [
-                                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                                                            className: "transition-transform"
-                                                                                                        }, void 0, false, {
-                                                                                                            fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                            lineNumber: 158,
-                                                                                                            columnNumber: 43
-                                                                                                        }, this),
-                                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Folder$3e$__["Folder"], {
-                                                                                                            size: 22,
-                                                                                                            strokeWidth: 2
-                                                                                                        }, void 0, false, {
-                                                                                                            fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                            lineNumber: 159,
-                                                                                                            columnNumber: 43
-                                                                                                        }, this),
-                                                                                                        s.title
-                                                                                                    ]
-                                                                                                }, void 0, true, {
-                                                                                                    fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                    lineNumber: 157,
-                                                                                                    columnNumber: 41
-                                                                                                }, this)
-                                                                                            }, void 0, false, {
+                                                                                                children: [
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                                        className: "flex items-center gap-2",
+                                                                                                        children: [
+                                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                                                                                                className: "transition-transform"
+                                                                                                            }, void 0, false, {
+                                                                                                                fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                                lineNumber: 147,
+                                                                                                                columnNumber: 43
+                                                                                                            }, this),
+                                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Folder$3e$__["Folder"], {
+                                                                                                                size: 22,
+                                                                                                                strokeWidth: 2
+                                                                                                            }, void 0, false, {
+                                                                                                                fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                                lineNumber: 148,
+                                                                                                                columnNumber: 43
+                                                                                                            }, this),
+                                                                                                            s.title
+                                                                                                        ]
+                                                                                                    }, void 0, true, {
+                                                                                                        fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                        lineNumber: 146,
+                                                                                                        columnNumber: 41
+                                                                                                    }, this),
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                                                        className: "bg-default-100 rounded-md",
+                                                                                                        children: [
+                                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$create$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                                title: g.title,
+                                                                                                                id: g.id,
+                                                                                                                task: "group"
+                                                                                                            }, void 0, false, {
+                                                                                                                fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                                lineNumber: 152,
+                                                                                                                columnNumber: 43
+                                                                                                            }, this),
+                                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$delete$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                                title: g.title,
+                                                                                                                task: "groups",
+                                                                                                                id: g.id
+                                                                                                            }, void 0, false, {
+                                                                                                                fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                                lineNumber: 157,
+                                                                                                                columnNumber: 43
+                                                                                                            }, this)
+                                                                                                        ]
+                                                                                                    }, void 0, true, {
+                                                                                                        fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
+                                                                                                        lineNumber: 151,
+                                                                                                        columnNumber: 41
+                                                                                                    }, this)
+                                                                                                ]
+                                                                                            }, void 0, true, {
                                                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                lineNumber: 156,
+                                                                                                lineNumber: 145,
                                                                                                 columnNumber: 39
                                                                                             }, this)
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                            lineNumber: 155,
+                                                                                            lineNumber: 144,
                                                                                             columnNumber: 37
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                        lineNumber: 154,
+                                                                                        lineNumber: 143,
                                                                                         columnNumber: 35
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleContent"], {
@@ -2187,123 +2206,114 @@ function AppSidebar({ ...props }) {
                                                                                                                     strokeWidth: 1.5
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                                    lineNumber: 170,
+                                                                                                                    lineNumber: 171,
                                                                                                                     columnNumber: 45
                                                                                                                 }, this),
                                                                                                                 i.title
                                                                                                             ]
                                                                                                         }, void 0, true, {
                                                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                            lineNumber: 169,
+                                                                                                            lineNumber: 170,
                                                                                                             columnNumber: 43
                                                                                                         }, this),
-                                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$link$2f$dist$2f$chunk$2d$T45N425O$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__link_default__as__Link$3e$__["Link"], {
-                                                                                                            showAnchorIcon: true,
-                                                                                                            anchorIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
-                                                                                                                size: 16,
-                                                                                                                strokeWidth: 1.5
-                                                                                                            }, void 0, false, {
-                                                                                                                fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                                lineNumber: 176,
-                                                                                                                columnNumber: 47
-                                                                                                            }, void 0),
-                                                                                                            className: "cursor-pointer",
-                                                                                                            isBlock: true,
-                                                                                                            color: "danger"
+                                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$admin$292f$admin$2f$components$2f$delete$2d$drawer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                            title: s.title,
+                                                                                                            task: "items",
+                                                                                                            id: s.id
                                                                                                         }, void 0, false, {
                                                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                            lineNumber: 173,
+                                                                                                            lineNumber: 174,
                                                                                                             columnNumber: 43
                                                                                                         }, this)
                                                                                                     ]
                                                                                                 }, void 0, true, {
                                                                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                                    lineNumber: 168,
+                                                                                                    lineNumber: 169,
                                                                                                     columnNumber: 41
                                                                                                 }, this))
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                            lineNumber: 166,
+                                                                                            lineNumber: 167,
                                                                                             columnNumber: 37
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                        lineNumber: 165,
+                                                                                        lineNumber: 166,
                                                                                         columnNumber: 35
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                                lineNumber: 153,
+                                                                                lineNumber: 142,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                            lineNumber: 152,
+                                                                            lineNumber: 141,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, s.id, false, {
                                                                         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                        lineNumber: 151,
+                                                                        lineNumber: 140,
                                                                         columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                                lineNumber: 149,
+                                                                lineNumber: 138,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 137,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 113,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 112,
                                                 columnNumber: 19
                                             }, this)
                                         }, g.id, false, {
                                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 111,
                                             columnNumber: 17
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                                lineNumber: 81,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                            lineNumber: 80,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                    lineNumber: 78,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                lineNumber: 77,
+                lineNumber: 62,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SidebarRail"], {}, void 0, false, {
                 fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-                lineNumber: 203,
+                lineNumber: 197,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(admin)/admin/components/app-sidebar.tsx",
-        lineNumber: 76,
+        lineNumber: 61,
         columnNumber: 5
     }, this);
 } // const createSeriesHandler = async (e: React.FormEvent<HTMLFormElement>) => {

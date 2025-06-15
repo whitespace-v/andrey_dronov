@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/kernel/dronevl/client/app/%28admin%29/admin/layout.tsx"],"sourcesContent":["import React from \"react\";\nimport Sidebar from \"./components/Sidebar\";\nimport { SidebarProvider } from \"@/components/ui/sidebar\";\nimport { AppSidebar } from \"./components/app-sidebar\";\n\nexport default function layout({ children }: { children: React.ReactNode }) {\n  return (\n    <SidebarProvider>\n      <AppSidebar />\n      {children}\n    </SidebarProvider>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;;;;AAEe,SAAS,OAAO,EAAE,QAAQ,EAAiC;IACxE,qBACE,8OAAC,4HAAA,CAAA,kBAAe;;0BACd,8OAAC,0JAAA,CAAA,aAAU;;;;;YACV;;;;;;;AAGP"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

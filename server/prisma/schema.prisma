@@ -20,7 +20,7 @@ model Group {
   title          String
   description    String
   src            String
-  series         Series[]
+  series         Series[]     
   items          Item[]
   created_at     DateTime         @default(now())
   updated_at     DateTime?  
@@ -30,7 +30,7 @@ model Series {
   id             Int              @id @default(autoincrement())
   group_id       Int
   src            String
-  group          Group            @relation(fields: [group_id], references: [id])
+  group          Group            @relation(fields: [group_id], references: [id], onDelete: Cascade)
   items          Item[]
   title          String
   description    String
@@ -47,17 +47,17 @@ model Item {
   created_at     DateTime         @default(now())
   updated_at     DateTime?
   series_id      Int
-  series         Series           @relation(fields: [series_id], references: [id])
+  series         Series           @relation(fields: [series_id], references: [id], onDelete: Cascade)
   group_id       Int
-  groups         Group            @relation(fields: [group_id], references: [id])
+  groups         Group            @relation(fields: [group_id], references: [id], onDelete: Cascade)
   images         ItemImage[]
-  params_table   ItemParamsTable[]
+  params_tables   ItemParamsTable[]
 }
 
 model ItemImage { 
   id             Int              @id @default(autoincrement())
   item_id        Int
-  item           Item             @relation(fields: [item_id], references: [id])
+  item           Item             @relation(fields: [item_id], references: [id], onDelete: Cascade)
   src            String
   created_at     DateTime         @default(now())
   updated_at     DateTime?
@@ -66,7 +66,7 @@ model ItemImage {
 model ItemParamsTable{
   id             Int              @id @default(autoincrement())
   item_id        Int
-  item           Item             @relation(fields: [item_id], references: [id])
+  item           Item             @relation(fields: [item_id], references: [id], onDelete: Cascade)
   title          String
   units          ItemParamsUnit[]
   created_at     DateTime         @default(now())
@@ -76,7 +76,7 @@ model ItemParamsTable{
 model ItemParamsUnit {
   id                     Int               @id @default(autoincrement())
   item_params_table_id   Int              
-  params_table           ItemParamsTable   @relation(fields: [item_params_table_id], references: [id])
+  params_table           ItemParamsTable   @relation(fields: [item_params_table_id], references: [id], onDelete: Cascade)
   name                   String
   value                  String
   created_at             DateTime          @default(now())
